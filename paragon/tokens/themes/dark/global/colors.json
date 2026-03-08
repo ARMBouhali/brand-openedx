@@ -1,0 +1,10 @@
+{
+  "color": {
+    "primary": {
+      "base": { "$value": "#ed752b" }
+    },
+    "brand": {
+      "base": { "$value": "#ed752b" }
+    }
+  }
+}
