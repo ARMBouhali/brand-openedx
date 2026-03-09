@@ -480,6 +480,7 @@
   --pgn-other-search-field-disabled-opacity: .3;
   --pgn-other-tooltip-opacity: 1;
   --pgn-other-link-emphasized-hover-darken-percentage: 15%;
+  --pgn-color-btn-text-primary: #454545FF;
   --pgn-color-btn-bg-outline-brand: inherit;
   --pgn-color-btn-bg-inverse-outline-brand: #00000000;
   --pgn-color-btn-bg-outline-danger: inherit;
@@ -630,6 +631,7 @@
   --pgn-color-stepper-header-step-border: none;
   --pgn-color-tab-inverse-pills-link-dropdown-toggle-bg-hover: #00000000;
   --pgn-color-toast-base: inherit;
+  --pgn-color-link-base: #ED752BFF;
   --pgn-color-list-group-base: inherit;
   --pgn-color-mark-bg: #FFF243FF;
   --pgn-color-white: #FFFFFFFF; /** White color. */
@@ -763,6 +765,7 @@
   --pgn-color-btn-active-bg-inverse-secondary: var(--pgn-color-gray-100);
   --pgn-color-btn-active-bg-inverse-success: var(--pgn-color-gray-100);
   --pgn-color-btn-active-bg-inverse-warning: var(--pgn-color-gray-100);
+  --pgn-color-btn-focus-text-primary: var(--pgn-color-btn-text-primary);
   --pgn-color-btn-focus-border-inverse-brand: var(--pgn-color-white);
   --pgn-color-btn-focus-border-inverse-danger: var(--pgn-color-white);
   --pgn-color-btn-focus-border-inverse-outline-danger: var(--pgn-color-white);
@@ -780,6 +783,7 @@
   --pgn-color-btn-focus-outline-inverse-secondary: var(--pgn-color-white);
   --pgn-color-btn-focus-outline-inverse-tertiary: var(--pgn-color-white);
   --pgn-color-btn-focus-outline-inverse-warning: var(--pgn-color-white);
+  --pgn-color-btn-disabled-text-primary: var(--pgn-color-btn-text-primary);
   --pgn-color-btn-disabled-bg-inverse-brand: var(--pgn-color-white);
   --pgn-color-btn-disabled-bg-inverse-outline-brand: var(--pgn-color-btn-bg-inverse-outline-brand);
   --pgn-color-btn-disabled-bg-inverse-primary: var(--pgn-color-white);
@@ -905,6 +909,7 @@
   --pgn-color-page-banner-text-accent-a: var(--pgn-color-black);
   --pgn-color-page-banner-text-accent-b: var(--pgn-color-black);
   --pgn-color-page-banner-text-warning: var(--pgn-color-black);
+  --pgn-color-pagination-text-base: var(--pgn-color-link-base);
   --pgn-color-pagination-text-inverse: var(--pgn-color-white);
   --pgn-color-pagination-bg-hover: var(--pgn-color-gray-100);
   --pgn-color-pagination-bg-disabled: var(--pgn-color-white);
@@ -946,6 +951,7 @@
   --pgn-color-body-base: var(--pgn-color-gray-700);
   --pgn-color-headings-base: var(--pgn-color-black);
   --pgn-color-hr-border: #0000001A;
+  --pgn-color-link-hover: #BC5110FF;
   --pgn-color-list-group-bg-base: var(--pgn-color-white);
   --pgn-color-list-group-bg-hover: var(--pgn-color-gray-100);
   --pgn-color-list-group-border: #00000020;
@@ -1095,7 +1101,6 @@
   --pgn-color-btn-text-outline-info: var(--pgn-color-info-base);
   --pgn-color-btn-text-inverse-info: var(--pgn-color-info-base);
   --pgn-color-btn-text-light: #454545FF;
-  --pgn-color-btn-text-primary: #2D2D2DFF;
   --pgn-color-btn-text-outline-secondary: var(--pgn-color-secondary-base);
   --pgn-color-btn-text-inverse-secondary: var(--pgn-color-secondary-base);
   --pgn-color-btn-text-outline-success: var(--pgn-color-success-base);
@@ -1426,6 +1431,7 @@
   --pgn-color-navbar-light-brand-hover: var(--pgn-color-navbar-light-active);
   --pgn-color-page-banner-bg-dark: var(--pgn-color-dark-500);
   --pgn-color-page-banner-bg-light: var(--pgn-color-light-400);
+  --pgn-color-pagination-text-hover: var(--pgn-color-link-hover);
   --pgn-color-pagination-text-active: var(--pgn-color-active);
   --pgn-color-pagination-bg-base: var(--pgn-color-bg-base);
   --pgn-color-pagination-focus-base: var(--pgn-color-primary-500);
@@ -1699,7 +1705,6 @@
   --pgn-color-btn-focus-text-outline-info: var(--pgn-color-btn-text-outline-info);
   --pgn-color-btn-focus-text-inverse-info: var(--pgn-color-btn-text-inverse-info);
   --pgn-color-btn-focus-text-light: var(--pgn-color-btn-text-light);
-  --pgn-color-btn-focus-text-primary: var(--pgn-color-btn-text-primary);
   --pgn-color-btn-focus-text-outline-secondary: var(--pgn-color-btn-text-outline-secondary);
   --pgn-color-btn-focus-text-outline-success: var(--pgn-color-btn-text-outline-success);
   --pgn-color-btn-focus-text-inverse-success: var(--pgn-color-btn-text-inverse-success);
@@ -1740,7 +1745,6 @@
   --pgn-color-btn-disabled-text-dark: var(--pgn-color-btn-text-dark);
   --pgn-color-btn-disabled-text-outline-info: var(--pgn-color-btn-text-outline-info);
   --pgn-color-btn-disabled-text-light: var(--pgn-color-btn-text-light);
-  --pgn-color-btn-disabled-text-primary: var(--pgn-color-btn-text-primary);
   --pgn-color-btn-disabled-text-outline-success: var(--pgn-color-btn-text-outline-success);
   --pgn-color-btn-disabled-text-outline-warning: var(--pgn-color-btn-text-outline-warning);
   --pgn-color-btn-disabled-bg-danger: var(--pgn-color-btn-bg-danger);
@@ -1838,7 +1842,6 @@
   --pgn-color-tab-more-link-dropdown-toggle-text-hover: var(--pgn-color-tab-more-link-dropdown-toggle-bg-focus);
   --pgn-color-tab-more-link-dropdown-toggle-border-focus: var(--pgn-color-tab-more-link-dropdown-toggle-bg-focus);
   --pgn-color-tab-inverse-pills-link-dropdown-toggle-text-active: var(--pgn-color-tab-inverse-pills-link-dropdown-toggle-text-focus);
-  --pgn-color-link-base: var(--pgn-color-info-500);
   --pgn-color-link-inline-base: var(--pgn-color-info-500);
   --pgn-color-link-muted-hover: #BC5110FF;
   --pgn-color-link-muted-inline-decoration: #ED752B4D;
@@ -2028,9 +2031,7 @@
   --pgn-color-form-control-select-border-focus: var(--pgn-color-form-input-focus-border);
   --pgn-color-form-control-file-border-focus: var(--pgn-color-form-input-focus-border);
   --pgn-color-nav-tabs-inverse-link-bg-active: var(--pgn-color-nav-tabs-inverse-link-bg-hover);
-  --pgn-color-pagination-text-base: var(--pgn-color-link-base);
   --pgn-color-pagination-border-active: var(--pgn-color-pagination-bg-active);
-  --pgn-color-link-hover: #003C5EFF;
   --pgn-color-link-inline-decoration: #006DAA4D;
   --pgn-color-link-inline-hover-base: #003C5EFF;
   --pgn-color-link-muted-inline-hover-decoration: #BC5110FF;
@@ -2058,6 +2059,5 @@
   --pgn-color-btn-active-text-outline-warning: #454545FF;
   --pgn-color-btn-active-text-inverse-outline-warning: #454545FF;
   --pgn-color-btn-disabled-text-outline-danger: var(--pgn-color-btn-hover-text-outline-danger);
-  --pgn-color-pagination-text-hover: var(--pgn-color-link-hover);
   --pgn-color-link-inline-hover-decoration: #003C5EFF;
 }

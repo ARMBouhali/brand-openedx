@@ -2,42 +2,60 @@
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 300;
-  src: url("../fonts/ProductSans/ProductSans-Regular.woff2") format("woff2"), url("../fonts/ProductSans/ProductSans-Regular.woff") format("woff"), url("../fonts/ProductSans/ProductSans-Regular.ttf") format("truetype");
+  src:
+    url("../fonts/ProductSans/ProductSans-Regular.woff2") format("woff2"),
+    url("../fonts/ProductSans/ProductSans-Regular.woff") format("woff"),
+    url("../fonts/ProductSans/ProductSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 400;
-  src: url("../fonts/ProductSans/ProductSans-Regular.woff2") format("woff2"), url("../fonts/ProductSans/ProductSans-Regular.woff") format("woff"), url("../fonts/ProductSans/ProductSans-Regular.ttf") format("truetype");
+  src:
+    url("../fonts/ProductSans/ProductSans-Regular.woff2") format("woff2"),
+    url("../fonts/ProductSans/ProductSans-Regular.woff") format("woff"),
+    url("../fonts/ProductSans/ProductSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 500;
-  src: url("../fonts/ProductSans/ProductSans-Medium.woff2") format("woff2"), url("../fonts/ProductSans/ProductSans-Medium.woff") format("woff"), url("../fonts/ProductSans/ProductSans-Medium.ttf") format("truetype");
+  src:
+    url("../fonts/ProductSans/ProductSans-Medium.woff2") format("woff2"),
+    url("../fonts/ProductSans/ProductSans-Medium.woff") format("woff"),
+    url("../fonts/ProductSans/ProductSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 600;
-  src: url("../fonts/ProductSans/ProductSans-Medium.woff2") format("woff2"), url("../fonts/ProductSans/ProductSans-Medium.woff") format("woff"), url("../fonts/ProductSans/ProductSans-Medium.ttf") format("truetype");
+  src:
+    url("../fonts/ProductSans/ProductSans-Medium.woff2") format("woff2"),
+    url("../fonts/ProductSans/ProductSans-Medium.woff") format("woff"),
+    url("../fonts/ProductSans/ProductSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 700;
-  src: url("../fonts/ProductSans/ProductSans-Medium.woff2") format("woff2"), url("../fonts/ProductSans/ProductSans-Medium.woff") format("woff"), url("../fonts/ProductSans/ProductSans-Medium.ttf") format("truetype");
+  src:
+    url("../fonts/ProductSans/ProductSans-Medium.woff2") format("woff2"),
+    url("../fonts/ProductSans/ProductSans-Medium.woff") format("woff"),
+    url("../fonts/ProductSans/ProductSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 300;
-  src: url("../fonts/HacenTunisia/HacenTunisiaLt.woff2") format("woff2"), url("../fonts/HacenTunisia/HacenTunisiaLt.woff") format("woff"), url("../fonts/HacenTunisia/HacenTunisiaLt.ttf") format("truetype");
+  src:
+    url("../fonts/HacenTunisia/HacenTunisiaLt.woff2") format("woff2"),
+    url("../fonts/HacenTunisia/HacenTunisiaLt.woff") format("woff"),
+    url("../fonts/HacenTunisia/HacenTunisiaLt.ttf") format("truetype");
   unicode-range: U+00A9, U+00AE, U+0600-06FF, U+FE70-FEFC;
 }
 
@@ -45,7 +63,10 @@
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 400;
-  src: url("../fonts/HacenTunisia/HacenTunisiaLt.woff2") format("woff2"), url("../fonts/HacenTunisia/HacenTunisiaLt.woff") format("woff"), url("../fonts/HacenTunisia/HacenTunisiaLt.ttf") format("truetype");
+  src:
+    url("../fonts/HacenTunisia/HacenTunisiaLt.woff2") format("woff2"),
+    url("../fonts/HacenTunisia/HacenTunisiaLt.woff") format("woff"),
+    url("../fonts/HacenTunisia/HacenTunisiaLt.ttf") format("truetype");
   unicode-range: U+00A9, U+00AE, U+0600-06FF, U+FE70-FEFC;
 }
 
@@ -53,7 +74,10 @@
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 500;
-  src: url("../fonts/HacenTunisia/HacenTunisia.woff2") format("woff2"), url("../fonts/HacenTunisia/HacenTunisia.woff") format("woff"), url("../fonts/HacenTunisia/HacenTunisia.ttf") format("truetype");
+  src:
+    url("../fonts/HacenTunisia/HacenTunisia.woff2") format("woff2"),
+    url("../fonts/HacenTunisia/HacenTunisia.woff") format("woff"),
+    url("../fonts/HacenTunisia/HacenTunisia.ttf") format("truetype");
   unicode-range: U+00A9, U+00AE, U+0600-06FF, U+FE70-FEFC;
 }
 
@@ -61,7 +85,10 @@
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 600;
-  src: url("../fonts/HacenTunisia/HacenTunisia.woff2") format("woff2"), url("../fonts/HacenTunisia/HacenTunisia.woff") format("woff"), url("../fonts/HacenTunisia/HacenTunisia.ttf") format("truetype");
+  src:
+    url("../fonts/HacenTunisia/HacenTunisia.woff2") format("woff2"),
+    url("../fonts/HacenTunisia/HacenTunisia.woff") format("woff"),
+    url("../fonts/HacenTunisia/HacenTunisia.ttf") format("truetype");
   unicode-range: U+00A9, U+00AE, U+0600-06FF, U+FE70-FEFC;
 }
 
@@ -69,6 +96,23 @@
   font-family: "Product Sans";
   font-display: swap;
   font-weight: 700;
-  src: url("../fonts/HacenTunisia/HacenTunisia.woff2") format("woff2"), url("../fonts/HacenTunisia/HacenTunisia.woff") format("woff"), url("../fonts/HacenTunisia/HacenTunisia.ttf") format("truetype");
+  src:
+    url("../fonts/HacenTunisia/HacenTunisia.woff2") format("woff2"),
+    url("../fonts/HacenTunisia/HacenTunisia.woff") format("woff"),
+    url("../fonts/HacenTunisia/HacenTunisia.ttf") format("truetype");
   unicode-range: U+00A9, U+00AE, U+0600-06FF, U+FE70-FEFC;
+}
+
+:root {
+  --pgn-color-btn-text-primary: #fff;
+  --pgn-color-btn-hover-text-primary: #fff;
+  --pgn-color-btn-focus-text-primary: #fff;
+  --pgn-color-btn-disabled-text-primary: #fff;
+  --pgn-color-btn-active-text-primary: #fff;
+}
+
+.donut-hole.complete-stroke,
+.donut-ring.complete-stroke,
+.donut-segment.complete-stroke {
+  stroke: var(--pgn-color-primary-500);
 }
