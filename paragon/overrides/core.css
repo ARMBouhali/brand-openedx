@@ -121,17 +121,22 @@
   color: #fff !important;
 }
 
-.bg-primary-400,
-.large-screen-svg-primary,
-.medium-screen-svg-primary {
-  background-color: var(--pgn-color-primary-400) !important;
-  fill: var(--pgn-color-primary-400) !important;
-}
-
 .small-yellow-line,
 .medium-yellow-line,
 .large-yellow-line {
   border-color: var(--pgn-color-primary-700) !important;
+}
+
+.small-screen-top-stripe,
+.medium-screen-top-stripe,
+.extra-large-screen-top-stripe {
+  display: none !important;
+  background: none !important;
+}
+
+.bg-primary-400 .logo,
+.bg-primary-500 .logo {
+  margin-top: 4rem !important;
 }
 
 .content,
@@ -175,6 +180,33 @@
   max-height: 20px !important;
 }
 
+.btn-oa2-google-oauth2,
+.btn-oa2-facebook,
+.btn-oa2-apple-id,
+.btn-oa2-azuread-oauth2 {
+  color: #fff !important;
+}
+
+.btn-oa2-google-oauth2 {
+  background: #db4437 !important;
+  border: 1px solid #db4437 !important;
+}
+
+.btn-oa2-facebook {
+  background: #1877f2 !important;
+  border: 1px solid #1877f2 !important;
+}
+
+.btn-oa2-apple-id {
+  background: #000 !important;
+  border: 1px solid #000 !important;
+}
+
+.btn-oa2-azuread-oauth2 {
+  background: #2f2f2f !important;
+  border: 1px solid #2f2f2f !important;
+}
+
 .btn-oa2-google-oauth2:hover,
 .btn-oa2-google-oauth2:focus,
 .btn-oa2-facebook:hover,
@@ -183,6 +215,7 @@
 .btn-oa2-apple-id:focus,
 .btn-oa2-azuread-oauth2:hover,
 .btn-oa2-azuread-oauth2:focus {
+  color: #fff !important;
   filter: brightness(0.95);
 }
 
