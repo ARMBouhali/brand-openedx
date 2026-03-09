@@ -5,6 +5,14 @@
     },
     "brand": {
       "base": { "$value": "#ed752b" }
+    },
+    "link": {
+      "base": { "$value": "#ed752b" }
+    },
+    "btn": {
+      "text": {
+        "primary": { "$value": "#fff" }
+      }
     }
   }
 }
