@@ -116,6 +116,77 @@
   --pgn-color-btn-active-text-brand: #fff;
 }
 
+/* Authn MFE */
+.text-accent-a {
+  color: #fff !important;
+}
+
+.bg-primary-400,
+.large-screen-svg-primary,
+.medium-screen-svg-primary {
+  background-color: var(--pgn-color-primary-400) !important;
+  fill: var(--pgn-color-primary-400) !important;
+}
+
+.small-yellow-line,
+.medium-yellow-line,
+.large-yellow-line {
+  border-color: var(--pgn-color-primary-700) !important;
+}
+
+.content,
+.main-content {
+  color: var(--pgn-color-text-base);
+}
+
+.btn-social {
+  width: 224px;
+  height: 40px;
+  border: 1px solid #d1d5db !important;
+  border-radius: 0.5rem;
+  box-shadow: none !important;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn-social:hover,
+.btn-social:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+.btn-tpa__font-container {
+  display: none !important;
+}
+
+.btn-tpa {
+  justify-content: center !important;
+  padding-left: 0 !important;
+  gap: 0.5rem;
+  width: 100% !important;
+}
+
+.btn-tpa__image-icon,
+.ibtn-tpa__image-icon {
+  margin-left: 0 !important;
+  max-width: 20px !important;
+  max-height: 20px !important;
+}
+
+.btn-oa2-google-oauth2:hover,
+.btn-oa2-google-oauth2:focus,
+.btn-oa2-facebook:hover,
+.btn-oa2-facebook:focus,
+.btn-oa2-apple-id:hover,
+.btn-oa2-apple-id:focus,
+.btn-oa2-azuread-oauth2:hover,
+.btn-oa2-azuread-oauth2:focus {
+  filter: brightness(0.95);
+}
+
+/* Learning MFE progress donut */
 .donut-hole.complete-stroke,
 .donut-ring.complete-stroke,
 .donut-segment.complete-stroke {
