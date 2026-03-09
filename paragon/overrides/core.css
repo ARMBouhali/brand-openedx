@@ -219,9 +219,34 @@
   filter: brightness(0.95);
 }
 
+/* shared header/footer logo sizing */
+.site-header-mobile img {
+  height: 2rem !important;
+}
+
+.site-header-desktop .logo,
+.studio-header .logo,
+.learning-header .logo {
+  height: 3rem !important;
+  padding: 0 !important;
+  top: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.site-header-desktop .logo img,
+.studio-header .logo img,
+.learning-header .logo img {
+  height: 100% !important;
+}
+
+.footer img {
+  max-height: 150px !important;
+}
+
 /* Learning MFE progress donut */
 .donut-hole.complete-stroke,
 .donut-ring.complete-stroke,
 .donut-segment.complete-stroke {
-  stroke: var(--pgn-color-primary-500);
+  stroke: var(--pgn-color-primary-base) !important;
 }
