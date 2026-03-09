@@ -109,6 +109,11 @@
   --pgn-color-btn-focus-text-primary: #fff;
   --pgn-color-btn-disabled-text-primary: #fff;
   --pgn-color-btn-active-text-primary: #fff;
+  --pgn-color-btn-text-brand: #fff;
+  --pgn-color-btn-hover-text-brand: #fff;
+  --pgn-color-btn-focus-text-brand: #fff;
+  --pgn-color-btn-disabled-text-brand: #fff;
+  --pgn-color-btn-active-text-brand: #fff;
 }
 
 .donut-hole.complete-stroke,
