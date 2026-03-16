@@ -244,6 +244,133 @@
   max-height: 150px !important;
 }
 
+/* Tutor Indigo footer */
+.footer.wrapper-footer,
+.wrapper.wrapper-footer {
+  padding: 25px 0 !important;
+  border-top: 1px solid var(--pgn-color-light-300, #d9dde3) !important;
+  background: var(--pgn-color-light-100, #fcfcfc) !important;
+}
+
+.footer.wrapper-footer .tutor-container,
+.wrapper.wrapper-footer .tutor-container {
+  margin: 0 auto !important;
+  padding: 0 15px !important;
+  max-width: 1600px !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+}
+
+.footer.wrapper-footer .footer-top,
+.wrapper.wrapper-footer .footer-top {
+  margin: 0 0 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 18px !important;
+}
+
+.footer.wrapper-footer .powered-area,
+.wrapper.wrapper-footer .powered-area {
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+.footer.wrapper-footer .logo-list,
+.wrapper.wrapper-footer .logo-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer.wrapper-footer .logo-list li,
+.wrapper.wrapper-footer .logo-list li {
+  display: block !important;
+  padding: 0 !important;
+}
+
+.footer.wrapper-footer .logo-list li::after,
+.wrapper.wrapper-footer .logo-list li::after {
+  display: none !important;
+  content: none !important;
+}
+
+.footer.wrapper-footer .logo-list img,
+.wrapper.wrapper-footer .logo-list img {
+  display: block !important;
+  max-height: 120px !important;
+  width: auto !important;
+}
+
+.footer.wrapper-footer .nav-colophon,
+.wrapper.wrapper-footer .nav-colophon {
+  width: 100% !important;
+}
+
+.footer.wrapper-footer .nav-colophon ol,
+.wrapper.wrapper-footer .nav-colophon ol {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 0.5rem 1.5rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  text-align: center !important;
+}
+
+.footer.wrapper-footer .nav-colophon li,
+.wrapper.wrapper-footer .nav-colophon li {
+  display: block !important;
+  padding: 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+}
+
+.footer.wrapper-footer .nav-colophon a,
+.wrapper.wrapper-footer .nav-colophon a {
+  color: var(--pgn-color-brand-base, #ed752b) !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+}
+
+.footer.wrapper-footer .nav-colophon a:hover,
+.footer.wrapper-footer .nav-colophon a:focus,
+.wrapper.wrapper-footer .nav-colophon a:hover,
+.wrapper.wrapper-footer .nav-colophon a:focus {
+  color: var(--pgn-color-brand-dark, #c85f1d) !important;
+  text-decoration: none !important;
+}
+
+.footer.wrapper-footer .colophon,
+.wrapper.wrapper-footer .colophon {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  text-align: center !important;
+}
+
+.footer.wrapper-footer .copyright,
+.wrapper.wrapper-footer .copyright {
+  margin: 0 !important;
+  color: var(--pgn-color-text-dark, #1f2933) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+}
+
+@media (min-width: 768px) {
+  .footer.wrapper-footer,
+  .wrapper.wrapper-footer {
+    padding: 45px 0 !important;
+  }
+
+  .footer.wrapper-footer .nav-colophon li,
+  .wrapper.wrapper-footer .nav-colophon li {
+    font-size: 1.2rem !important;
+  }
+}
+
 /* Learning MFE progress donut */
 .donut-hole.complete-stroke,
 .donut-ring.complete-stroke,
